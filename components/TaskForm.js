@@ -10,7 +10,7 @@ function TaskForm({ onSubmit, initialData, isEditing, onCancel }) {
 
   useEffect(() => {
     if (initialData) {
-      setFormData({
+      setFormData({dsds
         title: initialData.title || '',
         description: initialData.description || '',
         priority: initialData.priority || 'medium',
